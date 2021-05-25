@@ -1,3 +1,2 @@
 # VideoHelperLibrary
-
-A description of this package.
+Library to simplify working with AVPlayer
