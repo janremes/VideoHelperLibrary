@@ -5,11 +5,15 @@ import PackageDescription
 
 let package = Package(
     name: "VideoHelperLibrary",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "VideoHelperLibrary",
-            targets: ["VideoHelperLibrary"]),
+            targets: ["VideoHelperLibrary"]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
